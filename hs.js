@@ -1,0 +1,1 @@
+module.exports=[{"name":"Shivang","score":15},{"name":"Dholu","score":10}]
