@@ -40,7 +40,7 @@ function max_score(hs)
 var name=rd.question("May I know your name? ");
 console.log(chalk.keyword('orange')("Welcome "+name));
 var ch= rd.question("Are you ready to Revv it up?(y/n) ",{limit: ['y', 'n']});
-if (ch=='y')
+if (ch.toLowerCase()=='y')
 {
   console.log(chalk.blue("Let the game begin!"))
 
